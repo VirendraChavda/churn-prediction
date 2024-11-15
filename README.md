@@ -2,7 +2,7 @@
 ### Author: Virendrasinh Chavda
 
 <p align="justify">
-This repository contains the code and resources for predicting and analyzing customer churn in the telecom industry. Built with a robust tech stack that includes __Streamlit__, **Scikit-Learn**, and **SHAP**, this project offers insights into churn patterns using machine learning models. It integrates an interactive dashboard for segmentation, visualization, and in-depth analysis of customer behavior.
+This repository contains the code and resources for predicting and analyzing customer churn in the telecom industry. Built with a robust tech stack that includes <p style="font-weight: bold;">Streamlit</p>, **Scikit-Learn**, and **SHAP**, this project offers insights into churn patterns using machine learning models. It integrates an interactive dashboard for segmentation, visualization, and in-depth analysis of customer behavior.
 </p>
 
 ---
