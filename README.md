@@ -73,10 +73,10 @@ The project achieves robust performance in churn prediction with the following k
 
 | **Model**          | **Metric**       | **Value**  |
 |---------------------|------------------|------------|
-| **Random Forest**   | Accuracy         | 89.7%      |
-|                     | F1-Score         | 78.3%      |
-| **XGBoost**         | Accuracy         | 91.2%      |
-|                     | F1-Score         | 82.1%      |
+| **Random Forest**   | Accuracy         | 96.7%      |
+|                     | F1-Score         | 91.3%      |
+| **XGBoost**         | Accuracy         | 94.2%      |
+|                     | F1-Score         | 87.1%      |
 
 ---
 
