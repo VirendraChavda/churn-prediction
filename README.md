@@ -2,7 +2,7 @@
 ### Author: Virendrasinh Chavda
 
 <p align="justify">
-This repository contains the code and resources for predicting and analyzing customer churn in the telecom industry. Built with a robust tech stack that includes Streamlit, **Scikit-Learn**, and **SHAP**, this project offers insights into churn patterns using machine learning models. It integrates an interactive dashboard for segmentation, visualization, and in-depth analysis of customer behavior.
+This repository contains the code and resources for predicting and analyzing customer churn in the telecom industry. Built with a robust tech stack that includes Streamlit, <strong>Scikit-Learn</strong>, and <strong>SHAP</strong>, this project offers insights into churn patterns using machine learning models. It integrates an interactive dashboard for segmentation, visualization, and in-depth analysis of customer behavior.
 </p>
 
 ---
@@ -23,76 +23,76 @@ This repository contains the code and resources for predicting and analyzing cus
 
 ## Overview
 <p align="justify">
-The Telco Customer Churn Prediction system identifies customers likely to churn based on their demographics, usage patterns, and contract details. This project utilizes **machine learning models** and provides actionable insights through an **interactive dashboard**. It also highlights the key factors influencing customer churn using **SHAP analysis**.
+The Telco Customer Churn Prediction system identifies customers likely to churn based on their demographics, usage patterns, and contract details. This project utilizes <strong>machine learning models</strong> and provides actionable insights through an <strong>interactive dashboard</strong>. It also highlights the key factors influencing customer churn using <strong>SHAP analysis</strong>.
 </p>
 
 ---
 
 ## Features
-- **Churn Prediction**: Predicts the likelihood of customer churn using machine learning models.
-- **Interactive Dashboard**: Built with Streamlit for visualizing churn patterns, segmentation, and analysis.
-- **Segmentation Analysis**:
-  - **Contract and Tenure**: Churn rate by contract type and tenure.
-  - **Service Bundles**: Churn patterns across service packages.
-  - **Payment Methods**: Impact of payment methods on churn.
-  - **Tenure and Monthly Charges**: Trends in tenure, charges, and churn.
-- **SHAP Analysis**: Explains model predictions by identifying features that influence churn.
-- **Geographical Mapping**: Visualizes churned customers on an interactive map.
+- <strong>Churn Prediction</strong>: Predicts the likelihood of customer churn using machine learning models.
+- <strong>Interactive Dashboard</strong>: Built with Streamlit for visualizing churn patterns, segmentation, and analysis.
+- <strong>Segmentation Analysis</strong>:
+  - <strong>Contract and Tenure</strong>: Churn rate by contract type and tenure.
+  - <strong>Service Bundles</strong>: Churn patterns across service packages.
+  - <strong>Payment Methods</strong>: Impact of payment methods on churn.
+  - <strong>Tenure and Monthly Charges</strong>: Trends in tenure, charges, and churn.
+- <strong>SHAP Analysis</strong>: Explains model predictions by identifying features that influence churn.
+- <strong>Geographical Mapping</strong>: Visualizes churned customers on an interactive map.
 
 ---
 
 ## Technologies Used
-- **Streamlit**: For building the interactive web dashboard.
-- **Scikit-Learn**: For machine learning model training and preprocessing.
-- **SHAP**: For explainable AI and feature impact visualization.
-- **Seaborn & Matplotlib**: For data visualization and analytics.
-- **Pandas**: For data manipulation and analysis.
+- <strong>Streamlit</strong>: For building the interactive web dashboard.
+- <strong>Scikit-Learn</strong>: For machine learning model training and preprocessing.
+- <strong>SHAP</strong>: For explainable AI and feature impact visualization.
+- <strong>Seaborn & Matplotlib</strong>: For data visualization and analytics.
+- <strong>Pandas</strong>: For data manipulation and analysis.
 
 ---
 
 ## Detailed Implementation
 
 ### Data Preparation
-- **Dataset**: The dataset includes customer demographics, services, and payment details.
-- **Cleaning**: Handled missing values and ensured consistent numeric formatting for features like `Total Charges`.
+- <strong>Dataset</strong>: The dataset includes customer demographics, services, and payment details.
+- <strong>Cleaning</strong>: Handled missing values and ensured consistent numeric formatting for features like `Total Charges`.
 
 ### Machine Learning Models
-- **Random Forest**: Used for churn prediction.
-- **XGBoost**: Enhanced model with higher performance for interpretability and accuracy.
-- **Feature Scaling**: Applied scaling techniques (e.g., MinMaxScaler) for numeric attributes.
+- <strong>Random Forest</strong>: Used for churn prediction.
+- <strong>XGBoost</strong>: Enhanced model with higher performance for interpretability and accuracy.
+- <strong>Feature Scaling</strong>: Applied scaling techniques (e.g., MinMaxScaler) for numeric attributes.
 
 ### Dashboard Features
-- **Filters**: Interactive filters for city, tenure, and other attributes.
-- **Segmentation**: Drill-down analysis by customer attributes.
-- **Visualizations**: Includes bar charts, line plots, and SHAP summary plots.
+- <strong>Filters</strong>: Interactive filters for city, tenure, and other attributes.
+- <strong>Segmentation</strong>: Drill-down analysis by customer attributes.
+- <strong>Visualizations</strong>: Includes bar charts, line plots, and SHAP summary plots.
 
 ---
 
 ## Results
 The project achieves robust performance in churn prediction with the following key metrics:
 
-| **Model**          | **Metric**       | **Value**  |
+| <strong>Model<strong>          | <strong>Metric<strong>       | <strong>Value<strong>  |
 |---------------------|------------------|------------|
-| **Random Forest**   | Accuracy         | 96.7%      |
+| <strong>Random Forest<strong>   | Accuracy         | 96.7%      |
 |                     | F1-Score         | 91.3%      |
-| **XGBoost**         | Accuracy         | 94.2%      |
+| <strong>XGBoost<strong>         | Accuracy         | 94.2%      |
 |                     | F1-Score         | 87.1%      |
 
 ---
 
 ## Setup and Installation
 
-1. **Clone the Repository**
+1. <strong>Clone the Repository</strong>
    ```bash
    git clone https://github.com/VirendraChavda/churn-prediction.git
    cd churn-prediction
    ```
-2. **Install Dependencies**
+2. <strong>Install Dependencies</strong>
    ```bash
    pip install -r requirements.txt
    ```
-3. **Prepare Data Place the new_data.csv file in the Data/ folder.**
-4. **Run the Application**
+3. <strong>Prepare Data Place the new_data.csv file in the Data/ folder.<strong>
+4. <strong>Run the Application</strong>
    ```bash
    streamlit run app.py
    ```
@@ -108,10 +108,10 @@ The application provides an intuitive dashboard for customer churn analysis. Use
 ---
 
 ## Future Enhancements
-- **Enhanced Models**: Incorporate deep learning models for improved prediction accuracy.
-- **Advanced Segmentation**: Enable multi-level drill-down into customer attributes.
-- **Forecasting**: Predict future churn trends based on historical data.
-- **Real-Time Data**: Integrate with live customer data systems.
+- <strong>Enhanced Models</strong>: Incorporate deep learning models for improved prediction accuracy.
+- <strong>Advanced Segmentation</strong>: Enable multi-level drill-down into customer attributes.
+- <strong>Forecasting</strong>: Predict future churn trends based on historical data.
+- <strong>Real-Time Data</strong>: Integrate with live customer data systems.
 
 ---
 
