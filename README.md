@@ -126,6 +126,3 @@ We welcome contributions to enhance this project! Please submit issues or pull r
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```bash
-This `README.md` provides a comprehensive description of your project, including its features, technologies, setup instructions, and results. Let me know if you'd like any modifications or additional details!
-```
