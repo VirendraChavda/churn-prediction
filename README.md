@@ -99,10 +99,10 @@ The project achieves robust performance in churn prediction with the following k
 ## Usage
 <p align="justify">
 The application provides an intuitive dashboard for customer churn analysis. Users can:
-1. Apply filters to explore churn patterns across different customer segments.
-2. View visualizations like churn by contract type, tenure, and service bundles.
-3. Analyze SHAP plots to understand the key factors influencing churn.
-4. Access a map of churned customers to identify geographic patterns.
+  1. Apply filters to explore churn patterns across different customer segments.
+  2. View visualizations like churn by contract type, tenure, and service bundles.
+  3. Analyze SHAP plots to understand the key factors influencing churn.
+  4. Access a map of churned customers to identify geographic patterns.
 </p>
 
 ---
